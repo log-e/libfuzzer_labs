@@ -1,0 +1,6 @@
+# 介绍
+1. test1.cpp 是介绍 libfuzzer 的基本用法
+2. test2.cpp 是介绍 libfuzzer 和 json 的使用，用于说明结构化数据模糊测试时比较难的
+3. role.proto 可以理解为是一个结构化的数据定义，采用了 Google Protobuf
+4. test_role.cpp 是 role.proto 的一个使用示例
+5. fuzz_role.cpp 是展示如何将 libfuzzer 和 protobuf 结合来模糊测试结构化数据的一个实例

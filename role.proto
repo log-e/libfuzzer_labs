@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// 游戏角色
+message GameRole {
+  uint32 level = 1;  // 等级
+  string name = 2;   // 姓名
+  bool isVIP = 3;    // 是否是 vip 用户
+  uint32 hp = 4;     // 血量
+  uint32 mp = 5;     // 蓝量
+}
